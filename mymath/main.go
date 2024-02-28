@@ -38,7 +38,7 @@ func Cbrt(x float64) float64 {
 	return math.Cbrt(x)
 }
 
-func Cell(x float64) float64 {
+func Ceil(x float64) float64 {
 	return math.Ceil(x)
 }
 
@@ -190,7 +190,7 @@ func Modf(f float64) (float64, float64) {
 	return math.Modf(f)
 }
 
-func Nan() float64 {
+func NaN() float64 {
 	return math.NaN()
 }
 
